@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@font-face {
+    font-family: 'Gray Design Thin';
+    src: url(../assets/fonts/GrayDesign_Thin.otf) format('opentype');
+}
+
+html, body {
+    background: #2d2d2d;
+    font-family: 'Gray Design Thin';
+    text-align: center;
+    color: #fafafa;
+}
+
+#title {
+   font-size: 48px;
+   text-align: center;
+   color: #fafafa;
+   margin-top: 60px;
+   margin-bottom: 20px;
+}
+
+#post-container {
+    background: #fafafa
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 128);
+}
+
+#sidebar {
+    float: left;
+    width: 50px;
+    background: #4d4d4d;
+}
+
+#box {
+   font-family: 'Gray Design Thin', 'Nanum Gothic';
+   font-size: 48px;
+   text-align: center;
+   color: #2d2d2d;
+   background: #fafafa;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   border: 16px solid #fafafa;
+}
