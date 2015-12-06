@@ -1,3 +1,4 @@
+@charset utf-8;
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 @font-face {
@@ -7,7 +8,7 @@
 
 html, body {
     background: #2d2d2d;
-    font-family: 'Gray Design Thin';
+    font-family: 'Gray Design Thin', 'Nanum Gothic';
     text-align: center;
     color: #fafafa;
 }
