@@ -39,7 +39,7 @@ html, body {
 }
 
 #title a:hover {
-  border-bottom: 4px solid #00bdff;
+  border-bottom: 1px solid #00bdff;
   padding: 16px;
   color: #2d2d2d;
 }
@@ -60,12 +60,16 @@ html, body {
     box-shadow: 0px 2px 5px rgba(128, 128, 128, 128);
 }
 
+#list {
+  padding: 60px;
+  background: #2d2d2d;
+}
+
 #box {
-   font-family: 'Gray Design Thin', 'Nanum Gothic';
-   font-size: 48px;
+   font-size: 18px;
    text-align: center;
-   color: #2d2d2d;
+   float: center;
+   color: #fafafa;
    background: #2d2d2d;
-   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
    border: 16px solid #2d2d2d;
 }
