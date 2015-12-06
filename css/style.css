@@ -9,7 +9,8 @@
 html, body {
     background: #fafafa;
     font-family: 'Gray Design Thin', 'Nanum Gothic';
-    text-align: center;
+    font-size: 18px;
+	text-align: center;
     color: #2d2d2d;
     margin: 0px;
     padding: 0px;
@@ -17,38 +18,46 @@ html, body {
 
 #title {
    font-size: 48px;
-   text-align: left;
+   padding-top: 64px;
+   text-align: center;
    color: #2d2d2d;
 }
 
 #title a {
-    padding: 16px;
-    width: 128px;
-    height: 36px;
+    padding: 8px;
+    width: 72px;
+    height: 24px;
     font-size: 16px;
-    line-height: 36px;
-    float: right;
+	font-weight: bold;
+    line-height: 24px;
+	float: center
     display: block;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: #dadada;
-    background: #2d2d2d;
+    color: #a1a1a1;
 }
 
 #title a:hover {
   border-bottom: 4px solid #00bdff;
   padding: 16px;
-  color: #fafafa;
+  color: #2d2d2d;
 }
 
-#padding-text {
-  padding: 16px;
+.padding-text {
+  margin: 16px;
+  margin-top: 16px;
+}
+
+.head-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0px 2px 5px rgba(128, 128, 128, 128);
 }
 
 #post-container {
     background: #2d2d2d
-    box-shadow: 3px 3px 3px rgba(128, 128, 128, 128);
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 128);
 }
 
 #box {
