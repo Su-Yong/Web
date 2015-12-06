@@ -11,6 +11,8 @@ html, body {
     font-family: 'Gray Design Thin', 'Nanum Gothic';
     text-align: center;
     color: #fafafa;
+    margin: 0px;
+    padding: 0px;
 }
 
 #title {
@@ -27,9 +29,23 @@ html, body {
 }
 
 #sidebar {
+    width: 128px;
+    padding: 2px;
+}
+
+#sidebar a {
+    padding: 16px;
     float: left;
-    width: 50px;
-    background: #4d4d4d;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dadada;
+}
+
+#sidebar a:hover {
+  border-left: 4px solid #00bdff;
+  padding: 16px 12px 16px 16px;
+  color: #fafafa;
 }
 
 #box {
