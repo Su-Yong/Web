@@ -7,45 +7,48 @@
 }
 
 html, body {
-    background: #2d2d2d;
+    background: #fafafa;
     font-family: 'Gray Design Thin', 'Nanum Gothic';
     text-align: center;
-    color: #fafafa;
+    color: #2d2d2d;
     margin: 0px;
     padding: 0px;
 }
 
 #title {
    font-size: 48px;
-   text-align: center;
-   color: #fafafa;
-   margin-top: 60px;
-   margin-bottom: 20px;
+   text-align: left;
+   color: #2d2d2d;
 }
 
-#post-container {
-    background: #fafafa
-    box-shadow: 3px 3px 3px rgba(128, 128, 128, 128);
-}
-
-#sidebar {
-    width: 128px;
-    padding: 2px;
-}
-
-#sidebar a {
+#title a {
     padding: 16px;
-    float: left;
+    width: 128px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    float: right;
     display: block;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     color: #dadada;
+    background: #2d2d2d;
 }
 
-#sidebar a:hover {
-  border-left: 4px solid #00bdff;
-  padding: 16px 12px 16px 16px;
+#title a:hover {
+  border-bottom: 4px solid #00bdff;
+  padding: 16px;
   color: #fafafa;
+}
+
+#padding-text {
+  padding: 16px;
+}
+
+#post-container {
+    background: #2d2d2d
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 128);
 }
 
 #box {
@@ -53,7 +56,7 @@ html, body {
    font-size: 48px;
    text-align: center;
    color: #2d2d2d;
-   background: #fafafa;
+   background: #2d2d2d;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-   border: 16px solid #fafafa;
+   border: 16px solid #2d2d2d;
 }
