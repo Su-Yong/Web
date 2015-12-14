@@ -13,12 +13,17 @@
 
         <link rel="icon" type="image/png" href="assets/images/favicon.png" /> 
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+		  
+	    <script type="text/javascript" src="js/script.js"></script>
     </head>
-    
-    <body>
+	
+	<body onload="main()">
+		
+	  <canvas id="canvas-background" width="auto" height="auto"></canvas>
+	  
         <header>
             <div id="title">
-                <div class="padding-text">SY - WEB</div>
+			  <div class="padding-text" onclick="christmasMain()">SY - WEB</div>
 		            <a href="#profile" title="Profile">Profile</a>
 		            <a href="#information" title="Information">Information</a>
 		            <a href="#develop" title="Develop">Develop</a>
@@ -78,7 +83,7 @@
 			   :(
 			 </a>
         </div>
-		
+	    
 		<br><br><br><br><br>
 		<hr width="70%" color="#2d2d2d" align="center" height="1px"/>
 		<p>

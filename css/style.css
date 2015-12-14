@@ -7,7 +7,7 @@
 }
 
 html, body {
-    background: #fafafa;
+    background: #00fafafa;
     font-family: 'Gray Design Thin', 'Nanum Gothic';
     font-size: 18px;
 	text-align: center;
@@ -61,6 +61,14 @@ html, body {
   padding-right: 32px;
   background: #2d2d2d;
   box-shadow: 0px 0px 12px rgba(128, 128, 128, 128);
+}
+
+#canvas-background {
+    z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid red;
 }
 
 #box {
