@@ -69,3 +69,19 @@ html, body {
   vertical-align: middle;
   margin: 16px;
 }
+
+.download-form {
+  background: #fafafa;
+  color: #2d2d2d;
+  border: 1px solid #2d2d2d;
+  text-align: left;
+}
+
+.download-form-nagative {
+  background: #2d2d2d;
+  color: #fafafa;
+  border: 1px solid #fafafa;
+  padding-left: 2px;
+  text-align: left;
+  cursor: pointer;
+}
