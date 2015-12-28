@@ -12,24 +12,22 @@
         <meta property="og:description" content="Always develop page" /> 
 
         <link rel="icon" type="image/png" href="assets/images/favicon.png" /> 
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>\
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
     </head>
     
     <body>
-    <script type="text/javascript">
-		 	function downblue() {
-		 		window.open("https://docs.google.com/uc?authuser=0&id=0BynSEqQ9CpItdXgxdmR3NXY2UGM&export=download");
-		 	}
-        </script>
+        <script type="text/javascript" src="js/script.js"></script>
+        
+        <canvas id="background" width="auto" height="auto"></canvas>
 
         <header>
             <div id="title">
                 <div class="padding-text">SY - WEB</div>
-		            <a href="#profile" title="Profile">Profile</a>
-		            <a href="#information" title="Information">Information</a>
-		            <a href="#develop" title="Develop">Develop</a>
-		            <a href="#games" title="Games">Games</a>
+		            <a class="linker" href="#profile" title="Profile">Profile</a>
+		            <a class="linker" href="#information" title="Information">Information</a>
+		            <a class="linker" href="#develop" title="Develop">Develop</a>
+		            <a class="linker" href="#games" title="Games">Games</a>
 			    </div>
             <hr width="70%" color="#2d2d2d" align="center" />
         </header>
@@ -75,7 +73,7 @@
 				 </div>
 				 <div id="box">
 				   <img src="assets/images/bluebrowser.png" width="auto" height="200px"/> <br>
-				   My WebBrowser :<br>Blue Browser 
+				   My WebBrowser :<br>Blue Browser<br>Version: 0.1.0
 				   <div class="download-form-nagative" onclick="downblue()">
 				   		Download Here! 　　　 ↓
 				   </div>
@@ -87,8 +85,15 @@
 			  <p>
 			  <div class="head-text">4. Games</div>
 			  <hr width="3%" color="#2d2d2d" align="center" height="1px"/>
-			   Sorry... I Don't have any producting project...<br>
-			   :(
+			   Now! I'm making web game! but so simple and easy game :P
+
+               <p>
+               <div class="list" width="100%">
+                 <div id="box">
+                   <a href="index/play.html"><img src="assets/images/snake.png" width="200px" height="200px"/></a> <br>
+                   Snake Game: The simple game
+                 </div>
+               </div>
 			 </span>
         </div>
 		
@@ -97,7 +102,7 @@
 		<p>
 		
 		<footer>
-		  <font size="2px">Copyright 2015. SY all rights reserved.</font><p>
+		  <font size="2px">Copyright 2015. SY all rights reserved. - Version 2.0</font><p>
 		</footer>
     </body>
 </html>
