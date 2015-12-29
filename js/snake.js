@@ -54,6 +54,27 @@ window.onload = function() {
 	
 	var canvas = document.getElementById('play-canvas');
 	canvas.focus();
+
+canvas.onmousedown = function(event) {
+	var x = event.pageX;
+	var y = event.pageY;
+
+	if(y > 405) {
+		if(Snake.dirc != dirc.up)
+			Snake.dirc = dirc.down;
+	} else if(y < 155) {
+		if(Snake.dirc != dirc.down)
+			Snake.dirc = dirc.up;
+	} else {
+		if(x > 640) {
+			if(Snake.dirc != dirc.left)
+				Snake.dirc = dirc.right;
+		} else {
+			if(Snake.dirc != dirc.right)
+				Snake.dirc = dirc.left;
+		}
+	}
+}
 	var ctx = canvas.getContext('2d');
 	
 	var scorecanvas = document.getElementById('score');
@@ -93,7 +114,7 @@ window.onload = function() {
 			}
 		}
 
-		if(gt == 0) {
+		if(gt <= 0) {
 			alert("you are die!\npress ok button than restart");
 			location.reload();
 		}
@@ -148,7 +169,7 @@ window.onload = function() {
 		sc.fillStyle = "rgb(255, 215, 0)";
 		sc.font = "20px Verdana";
 		sc.fillText(score + "", 470, 527);
-	}, 100 - length * 5);
+	}, 100 - length * 10);
 }
 
 window.onkeydown = function(event) {
