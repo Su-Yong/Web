@@ -26,7 +26,22 @@ html, body {
     padding: 0px;
 }
 
+#title {
+   font-size: 48px;
+   text-align: center;
+   color: #fafafa;
+}
+
+.padding-text {
+  padding-top: 64px;
+}
+
 #play-canvas {
-   margin-top: 30px;
-   border: 4px solid #fafafa;
+    z-index: -1;
+    margin-top: 30px;
+    border: 4px solid #fafafa;
+}
+
+#score {
+    z-index: -1;
 }
