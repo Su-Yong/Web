@@ -87,6 +87,9 @@ window.onload = function() {
 
     setInterval(function() {
         if (start) {
+        	sc.fillStyle = "#2d2d2d";
+            sc.fillRect(190, 225, 130, 42);
+            
             ctx.fillStyle = "rgb(255, 215, 0)";
             ctx.fillRect(coin.x, coin.y, 10, 10);
 
@@ -185,8 +188,14 @@ window.onload = function() {
             sc.fillStyle = "rgb(55, 215, 0)";
             sc.fillRect(6, 520, 6 + gt * 44, 10);
             sc.fillStyle = "rgb(255, 215, 0)";
-            sc.font = "20px Verdana";
+            sc.font = "20px Gray Design Bold";
             sc.fillText(score + "", 470, 527);
+        } else {
+        	sc.fillStyle = "#2d2d2d";
+            sc.fillRect(190, 225, 130, 42);
+        	sc.fillStyle = "#fafafa";
+            sc.font = "42px Gray Design Medium";
+        	sc.fillText("Pause", 195, 260);
         }
     }, 100 - length * 20);
 }

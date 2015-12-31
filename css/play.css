@@ -16,6 +16,11 @@
     src: url(../assets/fonts/GrayDesign_Medium.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'Gray Design Thin';
+    src: url(../assets/fonts/GrayDesign_Thin.otf) format('opentype');
+}
+
 html, body {
     background: #2d2d2d;
     font-family: 'Gray Design Light', 'Nanum Gothic';
