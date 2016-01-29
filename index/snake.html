@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Snake Game</title>
-        
-        <meta name="theme-color" content="#fafafa"/>
+  <head>
+    <meta charset="utf-8"/>
+      <title>Snake Game</title>
 
-        <meta property="og:title" content="Snake Game" /> 
-        <meta property="og:type" content="website" /> 
-        <meta property="og:image" content="../assets/images/snake.png" /> 
-        <meta property="og:description" content="The simple game" /> 
+      <meta name="theme-color" content="#fafafa"/>
 
-        <link rel="icon" type="image/png" href="../assets/images/snake.png" /> 
-        <link rel="stylesheet" type="text/css" href="../css/play.css"/>
+      <meta property="og:title" content="Snake Game" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="../assets/images/snake.png" />
+      <meta property="og:description" content="The simple game" />
 
-    </head>
-    
-    <body>
-        <script type="text/javascript" src="../js/snake.js"> </script>
+      <link rel="icon" type="image/png" href="../assets/images/snake.png" />
+      <link rel="stylesheet" type="text/css" href="../css/play.css"/>
 
-        <header>
-        	<div id="title">
-            	<div class="padding-text">Snake Game</div>
+  </head>
+  <body>
+    <script type="text/javascript" src="../js/snake.js"> </script>
+
+    <header>
+      <div id="title">
+    	   <div class="padding-text">Snake Game</div>
 			</div>
-			<hr width="70%" color="#fafafa" align="center"/>
+
+      <hr width="70%" color="#fafafa" align="center"/>
 		</header>
 
-        <canvas id="play-canvas" width="500px" height="536px"></canvas>
-		<canvas id="score" width="5px" height="5px"></canvas>
+    <img id="refresh" style="visibility: hidden;" src="../assets/images/ic_refresh.png"/>
+    <canvas id="play-canvas" width="500px" height="536px"></canvas>
+	  <canvas id="score" width="5px" height="5px"></canvas>
+    <img id="back" style="visibility: hidden;" src="../assets/images/ic_back.png"/>
 
-		
-		<hr width="70%" color="#fafafa" align="center" height="5px"/>
-		
+    <hr width="70%" color="#fafafa" align="center" height="5px"/>
+
 		<footer>
-		  <font size="2px">Copyright 2015. SY all rights reserved. - Snake: The simple game - Version 0.4</font><p>
+		  <font size="2px">Copyright 2015. SY all rights reserved. - Snake: The simple game - Version 1.1</font><p>
 		</footer>
-    </body>
+  </body>
 </html>

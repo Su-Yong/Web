@@ -53,12 +53,6 @@ html, body {
     color: #a1a1a1;
 }
 
-#title a:hover {
-  border-bottom: 1px solid #00bdff;
-  padding: 16px;
-  color: #2d2d2d;
-}
-
 .padding-text {
   padding-top: 64px;
 }
@@ -107,8 +101,6 @@ html, body {
 }
 
 #post-container {
-  white-space: nowrap;
-  overflow-x: scroll;
 }
 
 .background {
