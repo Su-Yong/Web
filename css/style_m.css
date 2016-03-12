@@ -22,7 +22,7 @@
 }
 
 html, body {
-    background: #fafafa;
+    background: #fafafa
     font-family: 'Gray Design Light', 'Nanum Gothic';
     font-size: 18px;
     text-align: center;
@@ -32,25 +32,9 @@ html, body {
 }
 
 #title {
-   font-size: 48px;
+   font-size: 56px;
    text-align: center;
    color: #2d2d2d;
-}
-
-#title a {
-    padding: 8px;
-    width: 72px;
-    height: 24px;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Gray Design Bold';
-    line-height: 24px;
-    float: center
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #a1a1a1;
 }
 
 .padding-text {
@@ -101,6 +85,7 @@ html, body {
 }
 
 #post-container {
+
 }
 
 .background {
